@@ -9,7 +9,8 @@ import { Component } from '@angular/core';
 					<a routerLink="/dashboard">Dashboard</a>
 				</nav>
 				<router-outlet></router-outlet>
-			  `
+			  `,
+	styleUrls: ['app/app.component.css']
 
 })
 
