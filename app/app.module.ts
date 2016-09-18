@@ -15,6 +15,8 @@ import { HeroesComponent } from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
 import { HeroSearchComponent } from './hero-search.component';
 
+import { HighlightDirective } from './highlight.directive';
+
 import { HeroService } from './hero.service';
 import { routing } from './app.routing';
 
@@ -31,7 +33,8 @@ import { routing } from './app.routing';
   					HeroDetailComponent, 
   					HeroesComponent,
   					DashboardComponent,
-  					HeroSearchComponent
+  					HeroSearchComponent,
+  					HighlightDirective
   				],
   bootstrap: 	[ 
   					AppComponent 
