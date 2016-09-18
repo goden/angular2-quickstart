@@ -14,11 +14,13 @@ import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent } from './heroes.component';
 import { DashboardComponent } from './dashboard.component';
 import { HeroSearchComponent } from './hero-search.component';
-
-import { HighlightDirective } from './highlight.directive';
 import { TitleComponent } from './title.component';
 
+import { HighlightDirective } from './highlight.directive';
+
 import { HeroService } from './hero.service';
+import { UserService } from './user.service';
+
 import { routing } from './app.routing';
 
 @NgModule({
@@ -42,7 +44,8 @@ import { routing } from './app.routing';
   					AppComponent 
   				],
   providers:	[
-  					HeroService
+  					HeroService,
+            UserService
   				]
 })
 export class AppModule { }
